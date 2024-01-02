@@ -333,19 +333,19 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 2942:
+/***/ 3576:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
 
 /***/ }),
 
-/***/ 8322:
+/***/ 4095:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -353,7 +353,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 4076:
+/***/ 3817:
 /***/ (() => {
 
 
@@ -442,7 +442,10 @@ module.exports = {
 
 // Exports
 module.exports = {
-
+	"container": "navbar_container__CZncu",
+	"social": "navbar_social__Zhp3T",
+	"logo": "navbar_logo__uZP7g",
+	"links": "navbar_links__zwFDW"
 };
 
 
@@ -507,6 +510,8 @@ var authLinks_module_default = /*#__PURE__*/__webpack_require__.n(authLinks_modu
 
 
 const AuthLinks = ()=>{
+    // temporary
+    const status = "notauthenticated";
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: (authLinks_module_default()).container,
         children: "AuthLinks"

@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import styles from './navbar.module.css'
+import Link from 'next/link'
+import ThemeToggle from '../themeToggle/ThemeToggle'
+import AuthLinks from '../authLinks/AuthLinks'
 
 const Navbar = () => {
     return (
@@ -13,7 +16,12 @@ const Navbar = () => {
             </div>
             <div className={styles.logo}>Blog</div>
             <div className={styles.links}>
-                
+                <ThemeToggle />
+                <Link href='/'>HomePage</Link>
+                <Link href='/contact'>Contact</Link>
+                <Link href='/about'>About</Link>
+                <AuthLinks />
+
             </div>
         </div>
     )

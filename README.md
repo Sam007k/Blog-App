@@ -37,3 +37,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 git-ignore
 /.next/
 /out/
+
+# production
+/build

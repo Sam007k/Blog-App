@@ -1,0 +1,33 @@
+.container {
+    width: 40px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color: var(--textColor);
+    position: relative;
+    cursor: pointer;
+}
+
+.ball {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0f172a;
+    position: absolute;
+    left: 1px;
+    transition: all 0.1s ease-in;
+}
+
+.ballToggle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 1px;
+    background: white;
+    transition: all 0.1s ease-in;
+
+}

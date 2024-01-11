@@ -24,7 +24,7 @@ const Featured = () => {
                     <button className={styles.button}>Read More</button>
                 </div>
             </div>
-            Featured
+            
         </div>
     )
 }

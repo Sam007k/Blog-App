@@ -3,7 +3,8 @@ import styles from './pagination.module.css'
 const Pagination = () => {
     return (
         <div className={styles.container}>
-            Pagination
+            <div className={styles.button}>Previous</div>
+            <div className={styles.button}>Next</div>
         </div>
     )
 }

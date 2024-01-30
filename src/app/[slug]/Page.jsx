@@ -32,7 +32,7 @@ const Page =  (
           <div className={styles.user}>
             {/* {data?.user?.image && ( */}
               <div className={styles.userImageContainer}>
-                <Image src='/p1.jpeg'
+                <Image src='./p1.jpeg'
                 // {data.user.image}
                  alt="" fill className={styles.avatar} />
               </div>
@@ -47,7 +47,7 @@ const Page =  (
         </div>
         {/* {data?.img && ( */}
           <div className={styles.imageContainer}>
-            <Image src='/p1.jpeg'
+            <Image src='p1.jpeg'
             // {data.img}
              alt="" fill className={styles.image} />
           </div>
@@ -62,9 +62,7 @@ const Page =  (
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquam dignissimos laudantium eaque obcaecati recusandae illo voluptate atque sint nam.
           </div>
           <div className={styles.comment}>
-            <Comments
-            //  postSlug={slug}
-             />
+            <Comments postSlug={slug}/>
           </div>
         </div>
         {/* <Menu /> */}

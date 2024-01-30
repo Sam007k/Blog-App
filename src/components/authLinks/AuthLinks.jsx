@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Link from 'next/link'
 import styles from './authLinks.module.css'
 import { useState } from 'react'
@@ -10,7 +10,7 @@ const AuthLinks = () => {
     return (
         <>
             {status == 'notauthenticated' ? <Link href='/login'>Login</Link> : <> <Link href='/write'>Write</Link>
-                <span className={styles.link}>LogOut</span>
+                <span className={styles.link}>Logout</span>
             </>}
             <div className={styles.burger} onClick={()=> setOpen(!open)}>
                 <div className={styles.line}></div>

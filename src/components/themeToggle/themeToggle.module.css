@@ -20,7 +20,7 @@
     transition: all 0.1s ease-in;
 }
 
-.ballToggle{
+.ballToggle {
     width: 15px;
     height: 15px;
     border-radius: 50%;

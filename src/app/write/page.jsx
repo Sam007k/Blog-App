@@ -1,15 +1,33 @@
 'use client'
 import Image from 'next/image'
 import styles from './write.module.css'
+import { useRouter } from 'next/navigation';
 import { useState } from 'react'
 import "react-quill/dist/quill.bubble.css";
 import dynamic from 'next/dynamic';
+import { useSession } from 'next-auth/react';
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false });
 
 const WritePage = () => {
+    const router = useRouter()
+
+    const {data, status} = useSession()
+
+    
     const [value, setValue] = useState('')
     const [open, setOpen] = useState(false)
     const [content, setContent] = useState('');
+
+    if(status === 'loading') {
+        return <div className={styles.loading}>Loading...</div>
+    }
+
+    if(status === 'authenticated'){
+        router.push('/')
+    }
+
+
+
 
 
 

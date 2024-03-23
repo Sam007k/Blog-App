@@ -6,8 +6,6 @@ import { signOut, useSession } from 'next-auth/react'
 
 const AuthLinks = () => {
     const [open, setOpen] = useState(false)
-    // temporary
-    // const status = 'notauthenticated'
     const {status} = useSession()
     return (
         <>

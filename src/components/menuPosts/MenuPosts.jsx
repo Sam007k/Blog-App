@@ -9,7 +9,7 @@ const MenuPosts = ({ withImage }) => {
         <div className={styles.items}>
             <Link href='/' className={styles.item} >
                 {withImage && (<div className={styles.imgContainer}>
-                    <Image src='/p1.jpeg' className={styles.image} fill />
+                    <Image alt='' src='/p1.jpeg' className={styles.image} fill />
                 </div>)}
                 <div className={styles.textContainer}>
                     <span className={`${styles.category} ${styles.travel}`}>
@@ -24,7 +24,7 @@ const MenuPosts = ({ withImage }) => {
             </Link>
             <Link href='/' className={styles.item} >
                 {withImage && (<div className={styles.imgContainer}>
-                    <Image src='/p1.jpeg' className={styles.image} fill />
+                    <Image alt='' src='/p1.jpeg' className={styles.image} fill />
                 </div>)}
                 <div className={styles.textContainer}>
                     <span className={`${styles.category} ${styles.culture}`}>
@@ -39,7 +39,7 @@ const MenuPosts = ({ withImage }) => {
             </Link>
             <Link href='/' className={styles.item} >
                 {withImage && (<div className={styles.imgContainer}>
-                    <Image src='/p1.jpeg' className={styles.image} fill />
+                    <Image alt='' src='/p1.jpeg' className={styles.image} fill />
                 </div>)}
                 <div className={styles.textContainer}>
                     <span className={`${styles.category} ${styles.food}`}>
@@ -54,7 +54,7 @@ const MenuPosts = ({ withImage }) => {
             </Link>
             <Link href='/' className={styles.item} >
                 {withImage && (<div className={styles.imgContainer}>
-                    <Image src='/p1.jpeg' className={styles.image} fill />
+                    <Image alt='' src='/p1.jpeg' className={styles.image} fill />
                 </div>)}
                 <div className={styles.textContainer}>
                     <span className={`${styles.category} ${styles.fashion}`}>
